@@ -1,8 +1,39 @@
-README.md
+# Command Line & Git Basics
 
-# My Web Project
+## Command Line Commands
 
-This is a basic web project consisting of an `index.html` file and a `styles.css` file. It serves as a starting point for building simple static websites using HTML and CSS.
+These are essential terminal commands for navigating and managing files and folders in a project:
 
+| Command | Description |
+|--------|-------------|
+| `pwd` | Present Working Directory – shows your current directory |
+| `ls` | Lists contents of the current directory |
+| `cd <directory>` | Change directory – move into a folder |
+| `clear` | Clears the terminal screen (shortcut: `Ctrl + L`) |
+| `mkdir <foldername>` | Creates a new folder |
+| `code .` | Opens the current directory in Visual Studio Code |
+| `touch <filename>` | Creates a new file in the current directory |
 
+---
 
+## Git Repository Setup
+
+To initialize and link a Git repository:
+
+| Command | Description |
+|--------|-------------|
+| `git init` | Initializes a new Git repository in the current folder |
+| `git remote add origin <git-url>` | Connects your repo to a remote GitHub repository |
+| `git remote -v` | Verifies the remote origin connection |
+
+---
+
+## Making a Git Commit & Pushing to GitHub
+
+Follow these steps to commit changes and push them to GitHub:
+
+| Command | Description |
+|--------|-------------|
+| `git add .` | Stages all changes in the current directory for commit |
+| `git commit -m "your message here"` | Commits changes with a message |
+| `git push origin main` | Pushes the changes to the `main` branch on GitHub |
