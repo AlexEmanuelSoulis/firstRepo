@@ -1,3 +1,4 @@
+# README.md 
 # Command Line & Git Basics
 
 ## Command Line Commands
@@ -66,3 +67,4 @@ Follow these steps to commit changes and push them to GitHub:
 | `git checkout <branch-name>` | Switches to an existing branch |
 | `git merge <branch-name>` | Merges a branch into the current one |
 
+## Repository includes README.md, index.html, styles.css 
