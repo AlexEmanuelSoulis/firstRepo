@@ -25,6 +25,8 @@ To initialize and link a Git repository:
 | `git init` | Initializes a new Git repository in the current folder |
 | `git remote add origin <git-url>` | Connects your repo to a remote GitHub repository |
 | `git remote -v` | Verifies the remote origin connection |
+| `git status` | Show commits ready to be pushed |
+
 
 ---
 
