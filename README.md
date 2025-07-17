@@ -25,8 +25,6 @@ To initialize and link a Git repository:
 | `git init` | Initializes a new Git repository in the current folder |
 | `git remote add origin <git-url>` | Connects your repo to a remote GitHub repository |
 | `git remote -v` | Verifies the remote origin connection |
-| `git status` | Show commits ready to be pushed |
-
 
 ---
 
@@ -39,3 +37,32 @@ Follow these steps to commit changes and push them to GitHub:
 | `git add .` | Stages all changes in the current directory for commit |
 | `git commit -m "your message here"` | Commits changes with a message |
 | `git push origin main` | Pushes the changes to the `main` branch on GitHub |
+
+---
+
+## Cloning a Repository
+
+| Command | Description |
+|--------|-------------|
+| `git clone <git-url>` | Creates a local copy of a remote repository |
+
+---
+
+## Checking Status and History
+
+| Command | Description |
+|--------|-------------|
+| `git status` | Shows current changes and staging info |
+| `git log` | Shows commit history |
+
+---
+
+## Working with Branches
+
+| Command | Description |
+|--------|-------------|
+| `git branch` | Lists all branches |
+| `git checkout -b <branch-name>` | Creates and switches to a new branch |
+| `git checkout <branch-name>` | Switches to an existing branch |
+| `git merge <branch-name>` | Merges a branch into the current one |
+
